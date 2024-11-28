@@ -15,7 +15,7 @@ Dataset used for this project for training and testing was RAF-DB. The dataset w
 
 Following transform function was applied to the training data set :
 
-![FER Readme/image 1.png]([FER Readme/image 1.png](https://github.com/37nomad/Facial-Expression-Recognition-Using-Self-Attention/blob/15e15614ac3b855fe5619159199d5aa63784efdb/FER%20Readme/image%201.png))
+![FER Readme/image 1.png](https://github.com/37nomad/Facial-Expression-Recognition-Using-Self-Attention/blob/main/FER%20Readme/image%201.png)
 
 ## **Literature Review**
 
