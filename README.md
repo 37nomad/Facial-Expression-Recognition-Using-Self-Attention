@@ -1,7 +1,6 @@
 # Facial Expression Recognition Using Self Attention
 
-> **Note :**
-**Code explanation is done in the DEMO video.**
+
 > 
 
 ## Abstract
@@ -12,11 +11,11 @@ Facial expression recognition (FER) is a critical task in computer vision, aimed
 
 Dataset used for this project for training and testing was RAF-DB. The dataset was extracted from Kaggle it consisted around 13000 images for training set and around 3000 images for test set. Images in this database are of great variability in subjects' age, gender and ethnicity, head poses, lighting conditions, occlusions, (e.g. glasses, facial hair or self-occlusion), post-processing operations (e.g. various filters and special effects), etc. 
 
-![image.png](image.png)
+![FER Readme/image.png](FER Readme/image.png)
 
 Following transform function was applied to the training data set :
 
-![image.png](image%201.png)
+![FER Readme/image 1.png](FER Readme/image 1.png)
 
 ## **Literature Review**
 
