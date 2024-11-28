@@ -26,13 +26,13 @@ In this project, several key topics and techniques have been explored to enhance
 CBAM amalgamates CAM and SAM within a sequential framework, yielding superior outcomes compared to models reliant solely on CAM. The configuration of the CBAM network is depicted in Figure , where F signifies the feature image
 derived from the convolution layer, Mc(F) represents the generated channel attention image, F’ corresponds to the feature image obtained by multiplying F with Mc(F), Ms(F’) signifies the spatial attention image generated, and F’’ denotes the feature image derived from the multiplication of F’ and Ms(F’).
 
-![image.png](image%202.png)
+![image.png](https://github.com/37nomad/Facial-Expression-Recognition-Using-Self-Attention/blob/main/FER%20Readme/image%202.png)
 
 ### Patch Extraction
 
 Patch extraction block consists of three different convolutional layers, the first two being depth wise separable convolutional layers and the last being a pointwise convolutional layer. Operating on feature maps from the ResNet18 backbone producing the feature map dimension 32*14*14*256 (where 32 is batch size, 14*14 are spatial dimension, 256 is no of channels), the first separable convolutional layer is responsible for splitting the feature maps into four patches while learning higher-level features from its input. Subsequently, the second separable convolutional layer and the pointwise convolutional layer are responsible for learning the higher-level features from the patched feature maps, resulting in output with a dimension of 2 × 2. Instead of the standard convolutional layer used in conventional CNNs, the depth wise separable convolutional layer is selected for this model. This design decision improves the classification performance of the proposed method on challenging subsets while reducing the number of model parameters.  
 
-![patch extraction.png](patch_extraction.png)
+![patch extraction.png](https://github.com/37nomad/Facial-Expression-Recognition-Using-Self-Attention/blob/main/FER%20Readme/patch_extraction.png)
 
 ### Self Attention
 
@@ -40,13 +40,13 @@ Self-attention mechanism where the attention weights are computed as a dot produ
 
 Let Q, K, and V be the query, key, and value vectors, respectively, and dq = dk. The dot-product self attention score can be computed as follows:
 
-![image.png](image%203.png)
+![image.png](https://github.com/37nomad/Facial-Expression-Recognition-Using-Self-Attention/blob/main/FER%20Readme/image%203.png)
 
 where dk is the dimensionality of the key vectors. The SoftMax function is applied to the dot-product similarity scores to obtain a set of attention weights that sum up to 1. These weights are used to compute a weighted sum of the value vectors, resulting in the final attention output.
 
 ## Model Architecture
 
-![model.png](6b5a58f1-124d-46c9-8b26-78dce190b9c1.png)
+![model.png](https://github.com/37nomad/Facial-Expression-Recognition-Using-Self-Attention/blob/main/FER%20Readme/6b5a58f1-124d-46c9-8b26-78dce190b9c1.png)
 
 Here Self Attention has 1 head.
 
@@ -66,7 +66,7 @@ Incorporation of Self Attention has significantly improved the classification an
 
 Here is the following Confusion Matrix on the test dataset :
 
-![Untitled.png](Untitled.png)
+![Untitled.png](https://github.com/37nomad/Facial-Expression-Recognition-Using-Self-Attention/blob/main/FER%20Readme/Untitled.png)
 
 ## Discussion
 
