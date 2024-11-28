@@ -86,11 +86,3 @@ https://arxiv.org/pdf/2002.10392
 
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8545853
 
-## Team Members/Contributions
-
-1. Akhilesh Akula (22112012) - 
-Model Architecture Ideation, Data Preprocessing, Literature Review, Pytorch Implementation, Error Analysis Etc.
-2. Deepanshu Omer (22321011) - 
-Model Architecture Ideation, Data Handling, Literature Review, Pytorch Implementation, Error Analysis Etc.
-3. Atal Mishra (22112023) - 
-Model Architecture Ideation, Model Training, Literature Review, Pytorch Implementation, Error Analysis Etc.
