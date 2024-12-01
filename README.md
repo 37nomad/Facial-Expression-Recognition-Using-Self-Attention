@@ -48,6 +48,8 @@ where dk is the dimensionality of the key vectors. The SoftMax function is appli
 
 ![model.png](https://github.com/37nomad/Facial-Expression-Recognition-Using-Self-Attention/blob/main/FER%20Readme/6b5a58f1-124d-46c9-8b26-78dce190b9c1.png)
 
+Correction : In the above image after layer norm Global Average Pooling is also performed (GAP) !
+
 Here Self Attention has 1 head.
 
 Optimizer : Adam with Weight Decay
